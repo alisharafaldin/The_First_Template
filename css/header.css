@@ -1,0 +1,84 @@
+
+    /* 3- Sections Style */
+    /* 3.0 Header Section */    
+    .header{
+        /* background:dimgray; */
+        /*  الـ  position: absolute & fixed يحولان العنصر من بلوك إلى لاين بلوك */
+        position: fixed;
+        width: 100%; /* لأن العنصر فيكسد يجب إعطاره عرض 100% */
+        z-index: 10; /* لإخراج العنصر في الطبقة الأولى */ 
+        background: rgba(0, 0, 0, 1);
+    }
+    .header .title {
+        color: tomato;
+    }
+    .header-content{ /* لحل مشكلة القلوت مثل حل ديف الكلير */
+        /* تم حذف الافر فلو لأنها تتعارض مع القوائم المنسدلة وتم اسخدام دف كلير لحل هذه الازمة */
+        /* overflow: hidden;  */ 
+    }
+    .header .logo{
+        width: 40%;
+        float: left;
+    }
+    .header .logo img{
+        width: 20%;
+        margin-top: 15px;
+    }
+    .header .nav{
+        width: 60%;
+        float: left;
+        list-style: none;
+        text-align: right;
+    }
+    .header .nav > li{
+        display: inline-block; /* لجعل العناصر القائمة في سطر واحد */
+        
+        text-align: right;
+    }
+    .header .nav > li > a {
+        color: white;
+        font-size: 15px;
+        display: block ; /* لتحويل عنصر الروابط A  إلى بلك حتي يستجيب للبادنق */
+        padding: 30px  20px;
+    }
+    .header .nav > li > a.active:after ,  /* تثبيت تأثير العنصر لأول قائمة*/
+    .header .nav > li > a:after { /* after تأثير بعد العنصر وفي هذه الحالة اسفل منه*/
+        content: "";
+        display: block;
+        margin-top: 2px; /* إبعاد تأثير الخط عن الكلمة */
+        height: 3px;
+        background-color: var(--maincolor);
+        transition: width 0.5s; /* وقت تأثير ظهور الخط تحت القوائم  */
+    }
+    .header .nav > li > a.active:after {  /* تثبيت تأثير العنصر لأول قائمة*/
+        width: 100%;
+    }
+    .header .nav > li > a:after { /* after تأثير قبل الماوس العنصر وفي هذه الحالة اسفل منه*/
+        width: 0;
+    }
+    .header .nav > li > a:hover::after{ /* after تأثير ماوس  بعد العنصر وفي هذه الحالة اسفل منه*/
+         width: 100%;
+    }
+    .dropdown{
+        position: relative;
+    }
+    .dropdown-menu{
+        position: absolute ;
+        background-color: var(--maincolor);
+        width: 150px;
+        text-align: center;
+        left: -50%;
+        top: 70%;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s , visibility 0.5s ;
+    }
+    .dropdown-menu a {
+        color: white ;
+        display: block;
+        padding: 10px;
+    }
+    .dropdown:hover .dropdown-menu{
+        opacity: 1;
+        visibility: visible;
+    }

@@ -1,0 +1,154 @@
+/* 
+1- Common Styles
+2- General Style
+3- Sections Style
+    3.0- Header Section
+    3.1- Home Section 
+    3.2- About Section 
+    3.3- Portfolio Section 
+    3.4- Service Section 
+    3.5- Prices Section 
+    3.6- Team Section 
+    3.7- Blog Page 
+    3.8- Contact Section 
+    3.9- Footer Section
+
+*/
+
+
+/* 1- commont Styles الأشياء المكررة في الموقع*/
+    /*
+        - containar
+        - overlay
+        - opacity hover يوجد شفافية
+        - section header
+        - section padding
+        - hover effect 1 (left to right)
+        - hover effect 2 (top to botton)
+        - 
+    */
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.7);
+    }
+    .hover-opacity{ /* تأثير وقت التنفيذ سيعمل على كل العناصر لذلك يجب تحديد الشفافية فقط */
+        transition: opacity 0.5s; /* تحول السفافية خلال نص ثانية */
+    }
+    .hover-opacity:hover{
+        opacity: 0.8; /* التحكم في الشفافية */
+    }
+    .ltr-effect ,
+    .tb-effect {
+        position: relative;
+    }
+    .ltr-effect:after ,
+    .tb-effect:after {
+        position: absolute;
+        content: "";   
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #333;
+        z-index: -1; /* لإرجاع طبقة التأثير خلف الكلام */     
+    }
+    .ltr-effect:after{
+        width: 0;
+        transition: width 0.5s;
+    }
+    .tb-effect:after{
+        height: 0;
+        transition: height 0.5s;
+    }
+    .ltr-effect:hover:after{
+        width: 100%;   
+    }
+    .tb-effect:hover:after{
+        height: 100%;
+    }
+
+
+    /* 2- General Css Style */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* css3 لا يزيد من حج العنصر في حالة البادنق */    
+    }
+    :root{
+        --maincolor  : #6195ff;
+        --graycolor  : #999;
+        --whitecolor : #fff;
+    }
+    .container{
+        width: 80%; 
+        margin: auto;
+    }
+
+    body{
+        font-family: inherit; /* وراثة الخط من الأب */
+    }
+
+    .clear{
+        clear: both;
+    }
+
+    h1 , h2 , h3 , h4 , h5 , h6{
+        font-family: montserrat,sans-serif;
+    }
+
+    button{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    ul{
+        list-style: none;
+    }
+    a {
+        text-decoration: none; /* حذف جميع خطوط اللينكات */
+    }
+    .pd-y{ /* كلاس عام */
+        padding:  120px 0;
+    }
+    .section-header{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .section-header .section-title{
+        font-size: 35px;
+        text-transform: capitalize; /* أول حرف من الكلمة كبيتل */
+        margin-bottom: 10px;      
+    }
+    .section-header .line{
+        display: block;
+        height: 5px;
+        width: 70px;
+        margin: 0 auto 70px auto; /* أي عنصر عندو width يتم وضعه في المنتصف هكذا */
+        background-color: var(--maincolor);
+    }
+
+
+
+
+
+
+
+        /* 3- Sections Style */ 
+         /* 3.10- Contact Section  */
+        .get-item-icon{
+            overflow: hidden;
+        }
+
+    /* 3.1- Home Section  */
+    /* 3.2- About Section  */
+    /* 3.3- Portfolio Section  */
+    /* 3.4- Service Section  */
+    /* 3.5- numbers section */
+    /* 3.6- Prices Section  */
+    /* 3.7- Testimonail Section*/
+    /* 3.8- Team Section  */
+    /* 3.9- Blog Page  */
+    /* 3.10- Contact Section  */
+    /* 3.11- Footer Section */

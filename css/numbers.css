@@ -1,0 +1,36 @@
+
+        /* 3- Sections Style */
+        /* 3.5- numbers section */
+        .numbers{
+            position: relative;
+            background-image: url(../images/background/background2.webp);
+            background-size: cover; /* لملئ الصورة المكان الي هي فيه */
+            background-attachment: fixed; /* تأثير ثبات الصورة أثناء تحريك الصفحة */
+            height: 3 00px;
+
+        }
+        .numbers-item{
+            overflow: hidden;
+        }
+        .number-item{
+            width: 25%;
+            float: left;
+            text-align: center;
+        }
+        .number-item .icon{
+            color: var(--maincolor);
+            /* font-size: 50px; */
+            margin-bottom: 15px;
+        }
+        .number-item-title{
+            font-weight: bold;
+            font-size: 30px;
+            color: white;
+            margin-bottom: 15px;
+        }
+        .number-item-text{
+            color:white;
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
