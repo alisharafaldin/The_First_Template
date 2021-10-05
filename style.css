@@ -235,6 +235,10 @@ section.slider .ontainer .bolletes{
     visibility: visible;
 }
 
+body > section.category.section-padding > div.container > div.discount {
+    margin-top: 100px;
+}
+
 /* Discount */
 .discount{
     margin: 30px 0;
