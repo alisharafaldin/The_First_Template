@@ -32,3 +32,18 @@
         font-size: 15px;
         text-transform: uppercase;
     }
+    footer div {
+        background-color: var(--mainColor);
+        text-align: center;
+        font-size: 25px;
+        color: #fff;
+        height: 70;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    footer img {
+        width: 100px;
+        border-radius: 50%;
+        margin: 0 10px;
+    }

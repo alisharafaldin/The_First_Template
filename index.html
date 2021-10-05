@@ -3,559 +3,486 @@
         <meta charset="utf-8">
         <meta name="keywords" content="">
         <meta name="description" content=""/>
-        <title> HTML CSS  Template 1 </title>
+        <title>Wood World</title>
                 
         <!-- Font -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=varela+round&display=swap">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
         <!-- Css Files -->
         <!-- <link rel="stylesheet" href="css/all.min.css"> -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/utils.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/home.css">
-        <link rel="stylesheet" href="css/about.css">
-        <link rel="stylesheet" href="css/portfolio.css">
-        <link rel="stylesheet" href="css/service.css">
-        <link rel="stylesheet" href="css/numbers.css">
-        <link rel="stylesheet" href="css/pricing.css">
-        <link rel="stylesheet" href="css/testimonail.css">
-        <link rel="stylesheet" href="css/team.css">
-        <link rel="stylesheet" href="css/blog.css">
-        <link rel="stylesheet" href="css/offer.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/footer.css">
     </head>
-    
     <body>
-        <!-- Header -->
-        <div class="header">
-            <div class="container">
-                <div class="header-content"> <!-- لحل مشكلة الفلوت ؟؟ حل ثاني مثل ديف الكلير -->
-                    <div class="logo">
-                        <img src="images/logo-alt.webp" alt="Logo Image" draggable="false"> <!-- draggable="false" لعدم تحريك الصورة من الموقع -->
-                    </div>
-                    <ul class="nav">
-                        <li> <a href="#" class="active">Home </a> </li>
-                        <li> <a href="#"> About </a> </li>
-                        <li> <a href="#"> Portfolio </a> </li>
-                        <li> <a href="#"> Sevices </a> </li>
-                        <li> <a href="#"> Peices </a> </li>
-                        <li> <a href="#"> Team </a> </li>
-                        <li class="dropdown">
-                             <a href="#"> Blog </a> 
-                             <ul class="dropdown-menu">
-                                 <li> <a href="#">blog post</a> </li>
-                             </ul>
-                        </li>
-                        <li> <a href="#"> Contact </a> </li>
-                    </ul>
-                    <div class="clear"></div>
+        <!-- Header --> 
+        <header>
+            <dir class="container">
+                <div class="header-content">
+                    <!-- <img src="image/logo.png" alt="Logo"> -->
+                    <h1>Wood World</h1>
+                    <nav class="navbar">
+                        <ul class="list-unstyled">
+                           <li class="dropdown">
+                               <a class="link-item" href="#">Furntiure</a>
+                               <div class="dropdown-menu">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Tables</a></li>
+                                            <li><a href="#">Furntiure Tbl1</a></li>
+                                            <li><a href="#">Furntiure Tbl2</a></li>
+                                            <li><a href="#">Furntiure Tbl3</a></li>
+                                            <li><a href="#">Furntiure Tbl4</a></li>         
+                                    </ul><!-- ./list-unstyled -->
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Tables</a></li>
+                                        <li><a href="#">Furntiure Tbl1</a></li>
+                                        <li><a href="#">Furntiure Tbl2</a></li>
+                                        <li><a href="#">Furntiure Tbl3</a></li>
+                                        <li><a href="#">Furntiure Tbl4</a></li>
+                                    </ul><!-- ./list-unstyled -->
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Tables</a></li>
+                                        <li><a href="#">Furntiure Tbl1</a></li>
+                                        <li><a href="#">Furntiure Tbl2</a></li>
+                                        <li><a href="#">Furntiure Tbl3</a></li>
+                                        <li><a href="#">Furntiure Tbl4</a></li>
+                                    </ul><!-- ./list-unstyled -->
+                               </div><!-- ./dropdown-menu -->
+                            </li><!-- ./dropdown -->
+                            <li class="dropdown">
+                               <a class="link-item" href="#">Study Table</a>
+                                <div class="dropdown-menu">
+                                     <ul class="list-unstyled">
+                                         <li><a href="#">Tables</a></li>
+                                             <li><a href="#">Study Tbl1</a></li>
+                                             <li><a href="#">Study Tbl2</a></li>
+                                             <li><a href="#">Study Tbl3</a></li>
+                                             <li><a href="#">Study Tbl4</a></li>         
+                                     </ul><!-- ./list-unstyled -->
+                                     <ul class="list-unstyled">
+                                         <li><a href="#">Tables</a></li>
+                                         <li><a href="#">Study Tbl1</a></li>
+                                         <li><a href="#">Study Tbl2</a></li>
+                                         <li><a href="#">Study Tbl3</a></li>
+                                         <li><a href="#">Study Tbl4</a></li>
+                                     </ul><!-- ./list-unstyled -->
+                                     <ul class="list-unstyled">
+                                         <li><a href="#">Tables</a></li>
+                                         <li><a href="#">Study Tbl1</a></li>
+                                         <li><a href="#">Study Tbl2</a></li>
+                                         <li><a href="#">Study Tbl3</a></li>
+                                         <li><a href="#">Study Tbl4</a></li>
+                                     </ul><!-- ./list-unstyled -->
+                                </div><!-- ./dropdown-menu -->
+                             </li><!-- ./dropdown --> 
+                            <li class="dropdown">
+                               <a class="link-item" href="#">Plastic Chair</a>
+                                 <div class="dropdown-menu">
+                                      <ul class="list-unstyled">
+                                              <li><a href="#">Tables</a></li>
+                                              <li><a href="#">Plastic Tbl1</a></li>
+                                              <li><a href="#">Plastic Tbl2</a></li>
+                                              <li><a href="#">Plastic Tbl3</a></li>
+                                              <li><a href="#">Plastic Tbl4</a></li>         
+                                      </ul><!-- ./list-unstyled -->
+                                      <ul class="list-unstyled">
+                                          <li><a href="#">Tables</a></li>
+                                          <li><a href="#">Plastic Tbl1</a></li>
+                                          <li><a href="#">Plastic Tbl2</a></li>
+                                          <li><a href="#">Plastic Tbl3</a></li>
+                                          <li><a href="#">Plastic Tbl4</a></li>
+                                      </ul><!-- ./list-unstyled -->
+                                      <ul class="list-unstyled">
+                                          <li><a href="#">Tables</a></li>
+                                          <li><a href="#">Plastic Tbl1</a></li>
+                                          <li><a href="#">Plastic Tbl2</a></li>
+                                          <li><a href="#">Plastic Tbl3</a></li>
+                                          <li><a href="#">Plastic Tbl4</a></li>
+                                      </ul><!-- ./list-unstyled -->
+                                 </div><!-- ./dropdown-menu -->
+                              </li><!-- ./dropdown -->
+                            <li class="dropdown">
+                               <a class="link-item" href="#">Armoires</a>
+                                  <div class="dropdown-menu">
+                                       <ul class="list-unstyled">
+                                               <li><a href="#">Tables</a></li>
+                                               <li><a href="#">Armoires Tbl1</a></li>
+                                               <li><a href="#">Armoires Tbl2</a></li>
+                                               <li><a href="#">Armoires Tbl3</a></li>
+                                               <li><a href="#">Armoires Tbl4</a></li>         
+                                       </ul><!-- ./list-unstyled -->
+                                       <ul class="list-unstyled">
+                                           <li><a href="#">Tables</a></li>
+                                           <li><a href="#">Armoires Tbl1</a></li>
+                                           <li><a href="#">Armoires Tbl2</a></li>
+                                           <li><a href="#">Armoires Tbl3</a></li>
+                                           <li><a href="#">Armoires Tbl4</a></li>
+                                       </ul><!-- ./list-unstyled -->
+                                       <ul class="list-unstyled">
+                                           <li><a href="#">Tables</a></li>
+                                           <li><a href="#">Armoires Tbl1</a></li>
+                                           <li><a href="#">Armoires Tbl2</a></li>
+                                           <li><a href="#">Armoires Tbl3</a></li>
+                                           <li><a href="#">Armoires Tbl4</a></li>
+                                       </ul><!-- ./list-unstyled -->
+                                  </div><!-- ./dropdown-menu -->
+                               </li><!-- ./dropdown -->
+                            <li class="dropdown">
+                               <a class="link-item" href="#">Wardrober</a>
+                                   <div class="dropdown-menu">
+                                        <ul class="list-unstyled">
+                                                <li><a href="#">Tables</a></li>
+                                                <li><a href="#">Wardrober Tbl1</a></li>
+                                                <li><a href="#">Wardrober Tbl2</a></li>
+                                                <li><a href="#">Wardrober Tbl3</a></li>
+                                                <li><a href="#">Wardrober Tbl4</a></li>         
+                                        </ul><!-- ./list-unstyled -->
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Tables</a></li>
+                                            <li><a href="#">Wardrober Tbl1</a></li>
+                                            <li><a href="#">Wardrober Tbl2</a></li>
+                                            <li><a href="#">Wardrober Tbl3</a></li>
+                                            <li><a href="#">Wardrober Tbl4</a></li>
+                                        </ul><!-- ./list-unstyled -->
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Tables</a></li>
+                                            <li><a href="#">Wardrober Tbl1</a></li>
+                                            <li><a href="#">Wardrober Tbl2</a></li>
+                                            <li><a href="#">Wardrober Tbl3</a></li>
+                                            <li><a href="#">Wardrober Tbl4</a></li>
+                                        </ul><!-- ./list-unstyled -->
+                                   </div><!-- ./dropdown-menu -->
+                                </li><!-- ./dropdown -->
+                            <li class="dropdown">
+                               <a class="link-item" href="#">More</a>
+                                    <div class="dropdown-menu">
+                                         <ul class="list-unstyled">
+                                                 <li><a href="#">Tables</a></li>
+                                                 <li><a href="#">More Tbl1</a></li>
+                                                 <li><a href="#">More Tbl2</a></li>
+                                                 <li><a href="#">More Tbl3</a></li>
+                                                 <li><a href="#">More Tbl4</a></li>         
+                                         </ul><!-- ./list-unstyled -->
+                                         <ul class="list-unstyled">
+                                             <li><a href="#">Tables</a></li>
+                                             <li><a href="#">More Tbl1</a></li>
+                                             <li><a href="#">More Tbl2</a></li>
+                                             <li><a href="#">More Tbl3</a></li>
+                                             <li><a href="#">More Tbl4</a></li>
+                                         </ul><!-- ./list-unstyled -->
+                                         <ul class="list-unstyled">
+                                             <li><a href="#">Tables</a></li>
+                                             <li><a href="#">More Tbl1</a></li>
+                                             <li><a href="#">More Tbl2</a></li>
+                                             <li><a href="#">More Tbl3</a></li>
+                                             <li><a href="#">More Tbl4</a></li>
+                                         </ul><!-- ./list-unstyled -->
+                                    </div><!-- ./dropdown-menu -->
+                                 </li><!-- ./dropdown -->
+                    </nav><!-- ./navbar -->
+
+                    <div class="login">
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-search fa-2x"></i></li>
+                            <li><i class="fa fa-user fa-2x"></i></li>
+                            <li><i class="fa fa-cart-plus fa-2x"></i>Your Bag</li>
+                        </ul><!-- ./list-unstyled -->
+                    </div> <!-- ./login -->
+
                 </div> <!-- ./header-content -->
-            </div> <!-- ./container -->
-        </div> <!-- ./header -->
-        
-        <!-- Home Section -->
-        <div class="Home">
-            <div class="overlay">
-                <div class="home-content">
-                    <h1 class="title"> we are creatve agency </h1>
-                    <P class="home-desc"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est in ratione debitis eius? Voluptatum quo modi veniam atque sequi? Iste molestiae neque nisi quis est doloribus nobis ab adipisci quo?</P>
-                    <button class="btn btn-start hover-opacity">Get Started!</button>
-                    <button class="btn btn-learn hover-opacity">Learn More!</button>
-                </div> <!-- ./home-content -->
-            </div> <!-- ./overlay -->
-        </div> <!-- ./Home -->
+            </dir> <!-- ./container -->
+        </header>
 
-        <!-- About Seciton -->
-        <div class="about pd-y">
-            <div class="section-header">
-                <h2 class="section-title mg-b-10">welcome to website</h2>
-                <span class="line"></span>
-            </div> <!-- ./section-header -->  
-            
-            <div class="container">    
-                <div class="about-content">
-                    <div class="about-item ltr-effect">
-                        <i class="icon fa fa-cogs fa-2x"></i>
-                        <h2 class="about-item-title">fully customaizible</h2>
-                        <p class="about-item-desc">
-                            maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
-                        </p>
-                        <a href="#" class="about-item-link">read more</a>
-                    </div> <!-- ./about-item -->
-                    <div class="about-item ltr-effect mg">
-                        <i class="icon fa fa-magic fa-2x"></i>
-                        <h2 class="about-item-title">fully customaizible</h2>
-                        <p class="about-item-desc">
-                            maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
-                        </p>
-                        <a href="#" class="about-item-link">read more</a>
-                    </div> <!-- ./about-item -->
-                    <div class="about-item ltr-effect">
-                        <i class="icon fa fa-mobile fa-2x"></i>
-                        <h2 class="about-item-title">fully customaizible</h2>
-                        <p class="about-item-desc">
-                            maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
-                        </p>
-                        <a href="#" class="about-item-link">read more</a>
-                    </div> <!-- ./about-item -->
-                </div> <!-- ./about-content -->
-            </div> <!-- ./container -->
-        </div> <!-- ./about --> 
-
-        <!-- Portfolio Section -->
-        <div class="portfolio pd-y bg-gray">
-            <div class="section-header">
-                <h2 class="section-title mg-b-10">featured works</h2>
-                <span class="line"></span>
-            </div> <!-- ./section-header -->
-
-            <div class="container">    
-                <div class="portfolio-content">
-                    <div class="portfolio-item">
-                        <img src="images/work/work1.webp" alt="">
-                        <div class="layer-content">
-                           <div class="layer-info">
-                                <span class="category">category</span>
-                                <h3 class="layer-content-title">lorem, ipeum dolor</h3>
-                                <a href="#"><i class="fa fa-edit fa-lg"></i></a>
-                                <a href="#"><i class="fa fa-search fa-lg"></i></a>
-                           </div>
-                        </div> <!-- ./layer-content -->
-
-                   </div> <!-- ./portfolio-item -->
-                    <div class="portfolio-item mg">
-                        <img src="images/work/work2.webp" alt="">
-                        <div class="layer-content">
-                            <div class="layer-info">
-                                 <span class="category">category</span>
-                                 <h3 class="layer-content-title">lorem, ipeum dolor</h3>
-                                 <a href="#"><i class="fa fa-edit fa-lg"></i></a>
-                                 <a href="#"><i class="fa fa-search fa-lg"></i></a>
-                            </div>
-                         </div> <!-- ./layer-content -->
- 
-                   </div> <!-- ./portfolio-item -->
-                   <div class="portfolio-item">
-                         <img src="images/work/work3.webp" alt="">
-                         <div class="layer-content">
-                            <div class="layer-info">
-                                 <span class="category">category</span>
-                                 <h3 class="layer-content-title">lorem, ipeum dolor</h3>
-                                 <a href="#"><i class="fa fa-edit fa-lg"></i></a>
-                                 <a href="#"><i class="fa fa-search fa-lg"></i></a>
-                            </div>
-                         </div> <!-- ./layer-content -->
- 
-                   </div> <!-- ./portfolio-item -->
-                   <div class="portfolio-item">
-                         <img src="images/work/work4.webp" alt="">
-                         <div class="layer-content">
-                            <div class="layer-info">
-                                 <span class="category">category</span>
-                                 <h3 class="layer-content-title">lorem, ipeum dolor</h3>
-                                 <a href="#"><i class="fa fa-edit fa-lg"></i></a>
-                                 <a href="#"><i class="fa fa-search fa-lg"></i></a>
-                            </div>
-                         </div> <!-- ./layer-content -->
- 
-                    </div> <!-- ./portfolio-item -->
-                    <div class="portfolio-item mg">
-                        <img src="images/work/work5.webp" alt="">
-                        <div class="layer-content">
-                            <div class="layer-info">
-                                 <span class="category">category</span>
-                                 <h3 class="layer-content-title">lorem, ipeum dolor</h3>
-                                 <a href="#"><i class="fa fa-edit fa-lg"></i></a>
-                                 <a href="#"><i class="fa fa-search fa-lg"></i></a>
-                            </div>
-                         </div> <!-- ./layer-content -->
- 
-                    </div> <!-- ./portfolio-item -->
-                    <div class="portfolio-item">
-                        <img src="images/work/work6.webp" alt="">
-                        <div class="layer-content">
-                            <div class="layer-info">
-                                 <span class="category">category</span>
-                                 <h3 class="layer-content-title">lorem, ipeum dolor</h3>
-                                 <a href="#"><i class="fa fa-edit fa-lg"></i></a>
-                                 <a href="#"><i class="fa fa-search fa-lg"></i></a>
-                            </div>
-                         </div> <!-- ./layer-content -->
- 
-                    </div> <!-- ./portfolio-item -->
-              
-                </div> <!-- ./portfolio-content -->
-            </div> <!-- ./container -->
-        </div> <!-- ./portfolio pd-y -->
-
-         <!-- offer Section -->
-       <div class="offer pd-y ">
-            <div class="section-header">
-                <h2 class="section-title mg-b-10">what we offer</h2>
-                <span class="line"></span>
-            </div> <!-- ./section-header -->
+        <!-- Slider Section-->
+        <section class="slider">
             <div class="container">
-               <div class="offer-content"> <!-- لحل مشكلة الفلوت -->
-                    <div class="offer-item ltr-effect">
-                        <i class="icon fa fa-diamond fa-2x"></i>
-                        <h2 class="offer-item-title">app development</h2>
-                        <p class="offer-item-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, perspiciatis.</p>
-                    </div> <!-- ./offer-item -->
-                    <div class="offer-item ltr-effect mg">
-                        <i class="icon fa fa-rocket fa-2x"></i>
-                        <h2 class="offer-item-title">grapic design</h2>
-                        <p class="offer-item-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, perspiciatis.</p>
-                    </div> <!-- ./offer-item -->
-                    <div class="offer-item ltr-effect">
-                        <i class="icon fa fa-cogs fa-2x"></i>
-                        <h2 class="offer-item-title">creative idea</h2>
-                        <p class="offer-item-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, perspiciatis.</p>
-                    </div> <!-- ./offer-item -->
-                    <div class="offer-item ltr-effect">
-                        <i class="icon fa fa-diamond fa-2x"></i>
-                        <h2 class="offer-item-title">marketing</h2>
-                        <p class="offer-item-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, perspiciatis.</p>
-                    </div> <!-- ./offer-item -->
-                    <div class="offer-item ltr-effect mg">
-                        <i class="icon fa fa-pencil fa-2x"></i>
-                        <h2 class="offer-item-title">awesome support</h2>
-                        <p class="offer-item-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, perspiciatis.</p>
-                    </div> <!-- ./offer-item -->
-                    <div class="offer-item ltr-effect">
-                        <i class="icon fa fa-flask fa-2x"></i>
-                        <h2 class="offer-item-title">brand design</h2>
-                        <p class="offer-item-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, perspiciatis.</p>
-                    </div> <!-- ./offer-item -->
-               </div> <!-- offer-content -->
-            </div> <!-- ./container -->
-        </div> <!-- ./offer -->
+                <img src="image/main-banner-1-1600x700.jpg" alt="">
+                <div class="bolletes">
+                    <span></span>
+                    <span></span>
+                </div><!-- ./Bollets -->
+            </div>
+        </section><!-- ./slider -->
 
-        <!-- Services section -->
-        <div class="service pd-y bg-gray">
-            <div class="container">
-                <div class="service-item">
-                    <div class="section-header">
-                        <h2 class="section-title mg-b-10">why choose us</h2>
-                        <span class="line"></span>
-                    </div> <!--./section-header -->
-                    <p class="service-item-desc">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum sapiente consectetur repellendus, velit illum incidunt earum molestias ea obcaecati quasi quia nobis explicabo provident praesentium nesciunt dignissimos ducimus autem et! ipsum dolor sit amet consectetur adipisicing. ipsum dolor sit amet consectetur adipisicing elit. In, nulla.
-                    </p>
-                    <ul class="service-list">
-                        <li> <i class="fa fa-check fa-lw"></i> Lorem ipsum dolor sit amet consectetur.</li>
-                        <li> <i class="fa fa-check fa-lw"></i> Lorem ipsum dolor sit amet consectetur.</li>
-                        <li> <i class="fa fa-check fa-lw"></i> Lorem ipsum dolor sit amet consectetur.</li>
-                        <li> <i class="fa fa-check fa-lw"></i> Lorem ipsum dolor sit amet consectetur.</li>
-                    </ul> <!-- ./service-list -->
-                </div> <!-- ./service-item -->
-                <div class="service-item">
-                    <div class="service-img">
-                        <img src="images/about/about1.webp" alt="">
-                    </div> <!-- ./service-img -->
-                    <ul class="service-bollets">
-                        <li class="active"></li>
-                        <li></li>
-                        <li></li>
-                    </ul> 
-                </div> <!-- ./service-item -->
-                <div class="clear"></div>
-            </div> <!-- ./container -->
-        </div> <!-- ./Services section -->
-
-        <!-- number section -->
-        <div class="numbers">
-            <div class="overlay">
-                <div class="container">
-                    <div class="numbers-items pd-y">
-                        <div class="number-item">
-                            <i class="icon fa fa-users fa-2x"></i>
-                            <h3 class="number-item-title">451</h3>
-                            <span class="number-item-text">happy clients</span>
-                        </div> <!-- ./number-item -->
-                        <div class="number-item">
-                            <i class="icon fa fa-trophy fa-2x"></i>
-                            <h3 class="number-item-title">12</h3>
-                            <span class="number-item-text">awards won</span>
-                        </div> <!-- ./number-item -->
-                        <div class="number-item">
-                            <i class="icon fa fa-coffee fa-2x"></i>
-                            <h3 class="number-item-title">154K</h3>
-                            <span class="number-item-text">cups of coffee</span>
-                        </div> <!-- ./number-item -->
-                        <div class="number-item">
-                            <i class="icon fa fa-file fa-2x"></i>
-                            <h3 class="number-item-title">45</h3>
-                            <span class="number-item-text">projects completed</span>
-                        </div> <!-- ./number-item -->
-                    </div> <!-- ./numbers-items -->
-                </div> <!-- ./container -->
-            </div> <!-- ./overlay -->
-        </div> <!-- ./numbers -->
-
-        <!-- pricing section -->
-        <div class="pricing pd-y">
+        <!-- Category Section -->
+        <section class="category section-padding">
             <div class="section-header">
-                <h2 class="section-title mg-b-10">pricing table</h2>
+                <h2 class="section-title">Special Category</h2>
                 <span class="line"></span>
-            </div> <!--./section-header -->
+            </div><!-- ./section-header -->
             <div class="container">
-                <div class="pricing-plans">
-                    <div class="pricing-item tb-effect">
-                        <span class="pricing-item-text">basic plan</span>
-                        <div class="pricing-item-permonth">
-                            <h3 class="doller">$9</h3>
-                            <span class="month">/month</span>
-                        </div> <!-- ./pricing-item-permonth -->
-                        <ul class="pricing-list">
-                            <li>1GB Disk Space</li>
-                            <li>100 Email Account</li>
-                            <li>24/24 Support</li>
-                        </ul> <!-- ./pricing-list -->
-                        <button class="pricing-item-purchase">purchase new</button>
-                    </div> <!-- ./pricing-item -->
-                    <div class="pricing-item mg tb-effect">
-                        <span class="pricing-item-text">basic plan</span>
-                        <div class="pricing-item-permonth">
-                            <h3 class="doller">$9</h3>
-                            <span class="month">/month</span>
-                        </div> <!-- ./pricing-item-permonth -->
-                        <ul class="pricing-list">
-                            <li>1GB Disk Space</li>
-                            <li>100 Email Account</li>
-                            <li>24/24 Support</li>
-                        </ul> <!-- ./pricing-list -->
-                        <button class="pricing-item-purchase">purchase new</button>
-                    </div> <!-- ./pricing-item -->
-                    <div class="pricing-item tb-effect">
-                        <span class="pricing-item-text">basic plan</span>
-                        <div class="pricing-item-permonth">
-                            <h3 class="doller">$9</h3>
-                            <span class="month">/month</span>
-                        </div> <!-- ./pricing-item-permonth -->
-                        <ul class="pricing-list">
-                            <li>1GB Disk Space</li>
-                            <li>100 Email Account</li>
-                            <li>24/24 Support</li>
-                        </ul> <!-- ./pricing-list -->
-                        <button class="pricing-item-purchase">purchase new</button>
-                    </div> <!-- ./pricing-item -->
-                </div> <!-- ./pricing-plans -->
-            </div> <!-- ./container -->
-        </div> <!-- ./pricing -->
+                <div class="category-items">
+                    <div class="category-item">
+                        <img src="image/category-banner1.jpg" alt="">
+                        <h4 class="category-item-subtitle">Most Populer</h4>
+                        <h3 class="category-item-title">Modern Chair Collection</h3>
+                        <i class="icon fa fa-angle-right fa-lg"></i>
+                    </div><!-- ./category-item -->
+                    <div class="category-item">
+                        <img src="image/category-banner2.jpg" alt="">
+                        <h4 class="category-item-subtitle">Most Populer</h4>
+                        <h3 class="category-item-title">Modern Chair Collection</h3>
+                        <i class="icon fa fa-angle-right fa-lg"></i>
+                    </div><!-- ./category-item -->
+                    <div class="category-item">
+                        <img src="image/category-banner3.jpg" alt="">
+                        <h4 class="category-item-subtitle">Most Populer</h4>
+                        <h3 class="category-item-title">Modern Chair Collection</h3>
+                        <i class="icon fa fa-angle-right fa-lg"></i>
+                    </div><!-- ./category-item -->
+                    <div class="category-item">
+                        <img src="image/category-banner4.jpg" alt="">
+                        <h4 class="category-item-subtitle">Most Populer</h4>
+                        <h3 class="category-item-title">Modern Chair Collection</h3>
+                        <i class="icon fa fa-angle-right fa-lg"></i>
+                    </div><!-- ./category-item -->
+                </div><!-- ./category-items -->
+                <!-- Bollets -->
+                <div class="bollets">
+                </div><!-- ./Bollets -->
+                <div class="discount">
+                    <div class="discount-desc">
+                        <div class="top">
+                            <i class="icon fa fa-quote-left fa-lg"></i>
+                            <h2 class="discount-title">Penelipe Astrid</h2>
+                            <span class="discount-subtitle">(Marketing)</span>
+                        </div><!-- ./top -->
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maiores, quidem voluptate fugit ratione labore laborum! Totam cupiditate esse dolores dolore optio velit sunt similique et, dicta rem, fugit hic quae neque eaque laudantium culpa adipisci at! Hic esse, culpa blanditiis impedit itaque vero quis, unde commodi maxime dicta officiis.
+                            </p>
+                            <div class="bolletes">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div><!-- ./Bollets -->
+                        </div><!-- ./  -->
+                 </div><!-- ./discount-desc -->
 
-        <!-- Testimonail section -->
-        <div class="testimonail"> <!-- خلفية الصورة -->
-            <div class="overlay"> <!-- من أجل الطبقة فوق الهلفية الصورة -->
-                <div class="container"> <!-- عشان الكلام ما يلصق في الحواف -->
-                    <div class="testimonail-content"> <!-- عشان الأبناء ياخدوا فلوت والأب ياخد افر قلوت -->
-                        <div class="testimonail-item">
-                            <div class="testimonail-toplayer">
-                                <img src="images/Testimonial/perso1.webp" alt="">
-                                <h2>john doe</h2>
-                                <span>web designer</span>
-                            </div> <!-- ./testimonail-toplayer -->
-                            <p class="testimonail-desc">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum deleniti doloribus earum obcaecati dolore? Similique voluptate quae amet ipsam voluptatibus?
-                            </p> <!-- ./testimonail-desc -->
-                        </div> <!-- ./testimonail-item -->
+                    <div class="discount-item">
+                        <div class="discount-item-info">
+                            <h3>30% Discount</h3>
+                            <h2>Desiging Interiior</h2>
+                          </div><!-- ./discount-item-info -->
+                        <img src="image/cms-banner-1.jpg" alt="">
+                    </div><!-- ./discount-item -->
 
-                        <div class="testimonail-item">
-                            <div class="testimonail-toplayer">
-                                <img src="images/Testimonial/perso2.webp" alt="">
-                                <h2>john doe</h2>
-                                <span>web designer</span>
-                            </div> <!-- ./testimonail-toplayer -->
-                            <p class="testimonail-desc">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum deleniti doloribus earum obcaecati dolore? Similique voluptate quae amet ipsam voluptatibus?
-                            </p> <!-- ./testimonail-desc -->
-                        </div> <!-- ./testimonail-item -->
-                    </div> <!-- ./testimonail-content -->
-                </div> <!-- ./container -->
-            </div> <!-- ./overlay -->
-        </div> <!-- ./testimonail -->
+                    <div class="discount-item">
+                        <div class="discount-item-info">
+                            <h3>30% Discount</h3>
+                            <h2>Desiging Interiior</h2>
+                        </div><!-- ./discount-item-info -->
+                    </div><!-- ./discount-item -->
+                </div><!-- ./discount -->
 
-        <!-- Team section -->
-        <div class="team pd-y">
+                <!-- Sprites -->
+                <div class="sprites">
+                    <div class="sprites-item">
+                        <div class="sprite-icon sprite-icon-1"> </div>
+                        <div class="sprite-info">
+                            <h3>Free Dilevery</h3>
+                            <span>Free Shipping On All Order</span>
+                        </div><!-- ./sprites-info -->
+                    </div><!-- ./sprites-item -->
+                    <div class="sprites-item">
+                        <div class="sprite-icon sprite-icon-2"> </div>
+                        <div class="sprite-info">
+                            <h3>Free Dilevery</h3>
+                            <span>Free Shipping On All Order</span>
+                        </div><!-- ./sprites-info -->
+                    </div><!-- ./sprites-item -->
+                    <div class="sprites-item">
+                        <div class="sprite-icon sprite-icon-3"> </div>
+                        <div class="sprite-info">
+                            <h3>Free Dilevery</h3>
+                            <span>Free Shipping On All Order</span>
+                        </div><!-- ./sprites-info -->
+                    </div><!-- ./sprites-item -->
+                    <div class="sprites-item">
+                        <div class="sprite-icon sprite-icon-4"> </div>
+                        <div class="sprite-info">
+                            <h3>Free Dilevery</h3>
+                            <span>Free Shipping On All Order</span>
+                        </div><!-- ./sprites-info -->
+                    </div><!-- ./sprites-item -->
+                    <div class="sprites-item">
+                        <div class="sprite-icon sprite-icon-5"> </div>
+                        <div class="sprite-info">
+                            <h3>Free Dilevery</h3>
+                            <span>Free Shipping On All Order</span>
+                        </div><!-- ./sprites-info -->
+                    </div><!-- ./sprites-item -->
+                </div><!-- ./sprites -->
+                <hr>
+            </div><!-- ./container -->
+        </section><!-- ./category -->
+
+         <!-- Products Section -->
+         <section class="products section-padding">
             <div class="section-header">
-                <h2 class="section-title mg-b-10">our team</h2>
+                <h2 class="section-title">Featursd Products</h2>
                 <span class="line"></span>
-            </div> <!-- ./section-header -->
+            </div><!-- ./section-header -->
             <div class="container">
-                <div class="team-content">
-                    <div class="team-item tb-effect">
-                        <div class="team-img">
-                            <img src="images/team/team1.webp" alt="">
-                            <div class="team-overlay">
-                                <a href="#"> <i class="fa fa-facebook"></i></a>
-                                <a href="#"> <i class="fa fa-twitter"></i></a>
-                                <a href="#"> <i class="fa fa-linkedin"></i></a>
-                            </div><!-- team-overlay -->
-                        </div><!-- team-img -->
-                        <div class="team-info-title">john doe</div>
-                        <span class="team-info-text">web designer</span>
-                    </div><!-- ./team-item -->
-                    <div class="team-item tb-effect mg">
-                        <div class="team-img">
-                            <img src="images/team/team2.webp" alt="">
-                            <div class="team-overlay">
-                                <a href="#"> <i class="fa fa-facebook"></i></a>
-                                <a href="#"> <i class="fa fa-twitter"></i></a>
-                                <a href="#"> <i class="fa fa-linkedin"></i></a>
-                            </div><!-- team-overlay -->
-                        </div><!-- team-img -->
-                        <div class="team-info-title">john doe</div>
-                        <span class="team-info-text">web designer</span>
-                    </div><!-- ./team-item -->
-                    <div class="team-item tb-effect">
-                        <div class="team-img">
-                            <img src="images/team/team3.webp" alt="">
-                            <div class="team-overlay">
-                                <a href="#"> <i class="fa fa-facebook"></i></a>
-                                <a href="#"> <i class="fa fa-twitter"></i></a>
-                                <a href="#"> <i class="fa fa-linkedin"></i></a>
-                            </div><!-- team-overlay -->
-                        </div><!-- team-img -->
-                        <div class="team-info-title">john doe</div>
-                        <span class="team-info-text">web designer</span>
-                    </div><!-- ./team-item -->
-                </div> <!-- team-content -->
-            </div> <!-- ./container -->
-        </div> <!-- ./team -->
-
-        <!-- Blog Section -->
-        <div class="blog pd-y bg-gray">
-            <div class="section-header">
-                <h2 class="section-title mg-b-10">recent news</h2>
-                <span class="line"></span>
-            </div> <!-- ./section-header -->
-            <div class="container">
-                <div class="blog-item">
-                    <div class="blog-item-img">
-                        <img src="images/blog/blog1.webp" alt="">
-                    </div> <!-- ./blog-item-img -->
-                    <div class="blog-info">
-                        <ul class="blog-list">
-                            <li>
-                                <i class="fa fa-user"></i>
-                                john doe
-                            </li>
-                            <li>
-                                <i class="fa fa-clock-o"></i>
-                                18 oct
-                            </li>
-                            <li>
-                                <i class="fa fa-comments"></i>
-                                57
-                            </li>
-                        </ul> <!-- ./blog-list -->
-                        <h3 class="blog-title">molestie at elementum eu facilisis sed odio</h3>
-                        <p class="blog-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eum nulla quasi dolorum nisi veritatis, ipsa atque saepe vel illo!</p>
-                        <a href="#" class="blog-link">red more</a>    
-                    </div> <!-- ./blog-info -->
-                </div> <!-- ./blog-item -->
-                <div class="blog-item mg">
-                    <div class="blog-item-img">
-                        <img src="images/blog/blog2.webp" alt="">
-                    </div> <!-- ./blog-item-img -->
-                    <div class="blog-info">
-                        <ul class="blog-list">
-                            <li>
-                                <i class="fa fa-user"></i>
-                                john doe
-                            </li>
-                            <li>
-                                <i class="fa fa-clock-o"></i>
-                                18 oct
-                            </li>
-                            <li>
-                                <i class="fa fa-comments"></i>
-                                57
-                            </li>
-                        </ul> <!-- ./blog-list -->
-                        <h3 class="blog-title">molestie at elementum eu facilisis sed odio</h3>
-                        <p class="blog-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eum nulla quasi dolorum nisi veritatis, ipsa atque saepe vel illo!</p>
-                        <a href="#" class="blog-link">red more</a>    
-                    </div> <!-- ./blog-info -->
-                </div> <!-- ./blog-item -->
-                <div class="blog-item">
-                    <div class="blog-item-img">
-                        <img src="images/blog/blog3.webp" alt="">
-                    </div> <!-- ./blog-item-img -->
-                    <div class="blog-info">
-                        <ul class="blog-list">
-                            <li>
-                                <i class="fa fa-user"></i>
-                                john doe
-                            </li>
-                            <li>
-                                <i class="fa fa-clock-o"></i>
-                                18 oct
-                            </li>
-                            <li>
-                                <i class="fa fa-comments"></i>
-                                57
-                            </li>
-                        </ul> <!-- ./blog-list -->
-                        <h3 class="blog-title">molestie at elementum eu facilisis sed odio</h3>
-                        <p class="blog-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eum nulla quasi dolorum nisi veritatis, ipsa atque saepe vel illo!</p>
-                        <a href="#" class="blog-link">red more</a>    
-                    </div> <!-- ./blog-info -->
-                </div> <!-- ./blog-item -->
-            </div> <!-- ./container -->
-        </div> <!-- ./blog -->
-
-        <!-- Contact Section -->
-        <div class="get pd-y ">
-            <div class="section-header">
-                <h2 class="section-title mg-b-10">get in touch</h2>
-                <span class="line"></span>
-            </div> <!-- ./section-header -->
-            <div class="container">
-                <div class="get-item">
-                    <div class="get-item-icon">
-                        <ul class="get-list">
-                            <li>
-                                <i class="fa fa-phone"></i>
-                                <h3 class="get-list-title"> phone </h3>
-                                <span class="get-list-text">512-421-3940</span>
-                            </li>
-                            <li>
-                                <i class="fa fa-email"></i>
-                                <h3 class="get-list-title"> email </h3>
-                                <span class="get-list-text">email@support.com</span>
-                            </li>
-                            <li>
-                                <i class="fa fa-address"></i>
-                                <h3 class="get-list-title"> address </h3>
-                                <span class="get-list-text">1739 bubby drive</span>
-                            </li>
-                       </ul> <!-- ./get-list -->
-                    </div> <!-- ./get-item-img -->
-                </div> <!-- ./get-item -->
-            </div> <!-- ./container -->
-        </div> <!-- ./get -->
-
-        <!-- Footer Section -->
-        <div class="footer">
-            <img src="images/logo-alt.webp" alt="">
-            <ul class="footer-links">
-                <li><a href="#" class="hover-opacity"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#" class="hover-opacity"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#" class="hover-opacity"><i class="fa fa-youtube"></i></a></li>
-                <li><a href="#" class="hover-opacity"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#" class="hover-opacity"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#" class="hover-opacity"><i class="fa fa-instagram"></i></a></li>
-            </ul><!-- ./footer-links -->
-            <p class="copyright">copyright &copy; 2019 . all right reserved by colorlib</p>
-        </div><!-- ./footer -->
-
-
-
-           <!-- Section Header -->
-        <!-- <div class="section-header">
-            <h2 class="section-title">welcome to website</h2>
-            <span class="line"></span>
-        </div> ./section-header -->
+                <ul class="list-products list-unstyled">
+                    <li>wooden chair</li>
+                    <li>plastic chair</li>
+                    <li>study table</li>
+                    <li>plastic chair</li>
+                </ul>
+                <div class="products-items">
+                    <div class="product-item">
+                        <div class="product-img">
+                            <img src="image/chair1.jpg" alt="">
+                            <div class="product-overlay">
+                                <img src="image/chair2.jpg" alt="">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-facebook fa-lg"></i></li>
+                                    <li><i class="fa fa-twitter fa-lg"></i></li>
+                                    <li><i class="fa fa-linkedin fa-lg"></i></li>
+                                    <li><i class="fa fa-instagram fa-lg"></i></li>
+                                </ul><!-- ./list-unstyled -->
+                            </div><!-- ./product-overlay -->
+                            <div class="product-info">
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="fa fa-star-o fa-lg"></i>
+                                <span>product item</span>
+                                <h3>$108.8</h3>
+                            </div><!-- ./product-info -->
+                        </div><!-- ./product-img -->
+                    </div><!-- ./product-item -->
+                    <div class="product-item">
+                        <div class="product-img">
+                            <img src="image/chair3.jpg" alt="">
+                            <div class="product-overlay">
+                                <img src="image/chair4.jpg" alt="">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-facebook fa-lg"></i></li>
+                                    <li><i class="fa fa-twitter fa-lg"></i></li>
+                                    <li><i class="fa fa-linkedin fa-lg"></i></li>
+                                    <li><i class="fa fa-instagram fa-lg"></i></li>
+                                </ul><!-- ./list-unstyled -->
+                            </div><!-- ./product-overlay -->
+                            <div class="product-info">
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="fa fa-star-o fa-lg"></i>
+                                <span>product item</span>
+                                <h3>$108.8</h3>
+                            </div><!-- ./product-info -->
+                        </div><!-- ./product-img -->
+                    </div><!-- ./product-item -->
+                    <div class="product-item">
+                        <div class="product-img">
+                            <img src="image/chair5.jpg" alt="">
+                            <div class="product-overlay">
+                                <img src="image/chair6.jpg" alt="">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-facebook fa-lg"></i></li>
+                                    <li><i class="fa fa-twitter fa-lg"></i></li>
+                                    <li><i class="fa fa-linkedin fa-lg"></i></li>
+                                    <li><i class="fa fa-instagram fa-lg"></i></li>
+                                </ul><!-- ./list-unstyled -->
+                            </div><!-- ./product-overlay -->
+                            <div class="product-info">
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="fa fa-star-o fa-lg"></i>
+                                <span>product item</span>
+                                <h3>$108.8</h3>
+                            </div><!-- ./product-info -->
+                        </div><!-- ./product-img -->
+                    </div><!-- ./product-item -->
+                    
+                    <div class="product-item">
+                        <div class="product-img">
+                            <img src="image/chair1.jpg" alt="">
+                            <div class="product-overlay">
+                                <img src="image/chair2.jpg" alt="">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-facebook fa-lg"></i></li>
+                                    <li><i class="fa fa-twitter fa-lg"></i></li>
+                                    <li><i class="fa fa-linkedin fa-lg"></i></li>
+                                    <li><i class="fa fa-instagram fa-lg"></i></li>
+                                </ul><!-- ./list-unstyled -->
+                            </div><!-- ./product-overlay -->
+                            <div class="product-info">
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="fa fa-star-o fa-lg"></i>
+                                <span>product item</span>
+                                <h3>$108.8</h3>
+                            </div><!-- ./product-info -->
+                        </div><!-- ./product-img -->
+                    </div><!-- ./product-item -->
+                    <div class="product-item">
+                        <div class="product-img">
+                            <img src="image/chair3.jpg" alt="">
+                            <div class="product-overlay">
+                                <img src="image/chair4.jpg" alt="">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-facebook fa-lg"></i></li>
+                                    <li><i class="fa fa-twitter fa-lg"></i></li>
+                                    <li><i class="fa fa-linkedin fa-lg"></i></li>
+                                    <li><i class="fa fa-instagram fa-lg"></i></li>
+                                </ul><!-- ./list-unstyled -->
+                            </div><!-- ./product-overlay -->
+                            <div class="product-info">
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="fa fa-star-o fa-lg"></i>
+                                <span>product item</span>
+                                <h3>$108.8</h3>
+                            </div><!-- ./product-info -->
+                        </div><!-- ./product-img -->
+                    </div><!-- ./product-item -->
+                    <div class="product-item">
+                        <div class="product-img">
+                            <img src="image/chair5.jpg" alt="">
+                            <div class="product-overlay">
+                                <img src="image/chair6.jpg" alt="">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-facebook fa-lg"></i></li>
+                                    <li><i class="fa fa-twitter fa-lg"></i></li>
+                                    <li><i class="fa fa-linkedin fa-lg"></i></li>
+                                    <li><i class="fa fa-instagram fa-lg"></i></li>
+                                </ul><!-- ./list-unstyled -->
+                            </div><!-- ./product-overlay -->
+                            <div class="product-info">
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="active fa fa-star fa-lg"></i>
+                                <i class="fa fa-star-o fa-lg"></i>
+                                <span>product item</span>
+                                <h3>$108.8</h3>
+                            </div><!-- ./product-info -->
+                        </div><!-- ./product-img -->
+                    </div><!-- ./product-item -->
+                </div><!-- ./products-items -->
+            </div><!-- ./container -->
+         </section><!-- ./products section-padding -->
+         <footer dir="rtl">
+             <div class="foter">
+               <h4 dir="auto">تطوير وتصميم شرفنتود ©</h4>
+               <img src="image/icon.jpg" alt="">
+                <a href="https://github.com/alisharafaldin" style="color:#fff" target="blank">معرض أعمالي ع الـ github</a>
+             </div>
+             
+            </footer>
     </body>
 </html>
